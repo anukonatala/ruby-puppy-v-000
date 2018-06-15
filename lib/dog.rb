@@ -5,7 +5,9 @@ class Dog
     @name = name
   end
   
-  def 
+  def self.clear_all
+    
+  end
   def self.all
     @all.each do |dog|
       puts dog.name
